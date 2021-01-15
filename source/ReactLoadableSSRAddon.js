@@ -331,6 +331,7 @@ class ReactLoadableSSRAddon {
       }
     }
 
+    console.log('writing assets file to: ' + filePath + '\n\n\n\n');
     fs.writeFileSync(filePath, json);
   }
 }
